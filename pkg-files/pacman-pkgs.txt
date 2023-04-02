@@ -42,9 +42,7 @@ flex
 fuse2
 fuse3
 fuseiso
-gamemode
 gcc
-gimp
 gparted
 gptfdisk
 grub-customizer
@@ -98,9 +96,6 @@ unzip
 virt-manager
 virt-viewer
 which
-wine-gecko
-wine-mono
-winetricks
 zip
 zsh
 zsh-syntax-highlighting
