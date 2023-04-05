@@ -96,3 +96,4 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 bat
 lsd
+xautolock

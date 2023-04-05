@@ -9,3 +9,5 @@ snapper-gui-git
 vde2
 autojump
 zsh-sudo-git
+authy
+i3lock-color
