@@ -7,7 +7,6 @@ audiocd-kio
 bluedevil
 breeze
 breeze-gtk
-discover
 extra-cmake-modules
 filelight
 gwenview
@@ -19,7 +18,6 @@ kdeplasma-addons
 kgamma5
 kgpg
 kinfocenter
-konsole
 kscreen
 kvantum-qt5
 kwalletmanager
@@ -30,7 +28,6 @@ okular
 oxygen
 plasma-nm
 plasma-pa
-plasma-wayland-session
 powerdevil
 print-manager
 spectacle

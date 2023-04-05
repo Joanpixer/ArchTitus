@@ -1,16 +1,11 @@
 --END OF MINIMAL INSTALL--
+visual-studio-code-bin
 brave-bin
 bridge-utils
-dxvk-bin
 github-desktop-bin
-nerd-fonts-fira-code
-nordic-darker-standard-buttons-theme
-nordic-darker-theme
-nordic-kde-git
-nordic-theme
 ocs-url
 plymouth-git
-sddm-nordic-theme-git
 snapper-gui-git
-ttf-meslo
 vde2
+autojump
+zsh-sudo-git

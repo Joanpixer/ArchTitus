@@ -13,8 +13,6 @@ noto-fonts-emoji
 usbutils
 xdg-user-dirs
 --END OF MINIMAL INSTALL--
-alsa-plugins
-alsa-utils
 autoconf
 automake
 awesome-terminal-fonts
@@ -28,7 +26,6 @@ bridge-utils
 btrfs-progs
 celluloid
 cmatrix
-code
 cronie
 cups
 dialog
@@ -73,7 +70,6 @@ picom
 pkgconf
 powerline-fonts
 pulseaudio
-pulseaudio-alsa
 pulseaudio-bluetooth
 python-notify2
 python-psutil
@@ -82,7 +78,6 @@ python-pip
 qemu
 snap-pac
 snapper
-steam
 swtpm
 synergy
 terminus-font
@@ -97,6 +92,7 @@ virt-manager
 virt-viewer
 which
 zip
-zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+bat
+lsd
