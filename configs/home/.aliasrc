@@ -89,3 +89,4 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias cat='bat'
 alias ls='lsd'
 
+alias rm='mv --target-directory="$HOME/.trash"'
