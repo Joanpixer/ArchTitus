@@ -35,16 +35,16 @@ sudo pacman -S --noconfirm -needed zsh
 
 chsh --shell /bin/zsh $USERNAME
 
-sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
+sed '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
+while read line
 do
-  if [[ ${line} == '--END OF MINIMAL INSTALL--' ]]
-  then
-    # If selected installation type is FULL, skip the --END OF THE MINIMAL INSTALLATION-- line
-    continue
+  if [[ ${line} == *'--END OF MINIMAL INSTALL--'* ]]; then
+    break
   fi
   echo "INSTALLING: ${line}"
   sudo pacman -S --noconfirm --needed ${line}
-done
+done < <(grep -v '^#' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt)
+
 
 
 if [[ ! $AUR_HELPER == none ]]; then
