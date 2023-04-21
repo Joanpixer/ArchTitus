@@ -31,7 +31,7 @@ printf "
 "
 cp -r ~/ArchTitus/configs/home/* "/home/$USERNAME/"
 
-sudo pacman -S --noconfirm -needed zsh
+sudo pacman -S --noconfirm --needed zsh
 
 chsh --shell /bin/zsh $USERNAME
 
