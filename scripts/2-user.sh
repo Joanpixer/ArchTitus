@@ -35,7 +35,7 @@ sudo pacman -S --noconfirm --needed zsh
 
 chsh --shell /bin/zsh $USERNAME
 
-sed -E '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
+sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
   if [[ ${line} == '--END OF MINIMAL INSTALL--' ]]
   then
