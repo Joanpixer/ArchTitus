@@ -3,7 +3,7 @@
 #
 # @file User
 # @brief User customizations and AUR package installation.
-echo -ne "
+printf "
 -------------------------------------------------------------------------
    █████╗ ██████╗  ██████╗██╗  ██╗████████╗██╗████████╗██╗   ██╗███████╗
   ██╔══██╗██╔══██╗██╔════╝██║  ██║╚══██╔══╝██║╚══██╔══╝██║   ██║██╔════╝
@@ -24,12 +24,12 @@ source $HOME/ArchTitus/configs/setup.conf
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
 
-echo -ne "
+printf "
 -------------------------------------------------------------------------
                     Setting up zsh configs
 -------------------------------------------------------------------------
 "
-cp -r "~/ArchTitus/configs/home/*" "/home/$USERNAME/"
+cp -r ~/ArchTitus/configs/home/* "/home/$USERNAME/"
 
 sudo pacman -S --noconfirm -needed zsh
 
@@ -82,7 +82,7 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
   fi
 fi
 
-echo -ne "
+printf "
 -------------------------------------------------------------------------
                     SYSTEM READY FOR 3-post-setup.sh
 -------------------------------------------------------------------------
