@@ -24,10 +24,11 @@ source $HOME/ArchTitus/configs/setup.conf
   mkdir "/home/$USERNAME/.cache"
   touch "/home/$USERNAME/.cache/zshhistory"
 
+echo -ne "
 -------------------------------------------------------------------------
                     Setting up zsh configs
 -------------------------------------------------------------------------
-
+"
 cp -r "~/ArchTitus/configs/home/*" "/home/$USERNAME/"
 
 sudo pacman -S --noconfirm -needed zsh
