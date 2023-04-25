@@ -16,7 +16,6 @@ xdg-user-dirs
 autoconf
 automake
 awesome-terminal-fonts
-bash-completion
 bind
 bison
 bluez
@@ -86,6 +85,7 @@ ttf-droid
 ttf-hack
 ttf-roboto
 ufw
+fail2ban
 unrar
 unzip
 virt-manager
