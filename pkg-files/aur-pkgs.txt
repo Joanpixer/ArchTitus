@@ -9,3 +9,4 @@ vde2
 autojump
 zsh-sudo-git
 authy
+ttf-meslo-nerd-font-powerlevel10k
