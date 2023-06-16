@@ -47,7 +47,6 @@ gst-plugins-good
 gst-plugins-ugly
 haveged
 htop
-jdk-openjdk
 kitty
 libdvdcss
 libtool
